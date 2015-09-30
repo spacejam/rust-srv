@@ -1,0 +1,12 @@
+[package]
+name = "srv"
+description = "Portable SRV DNS record lookup."
+version = "0.1.0"
+authors = ["Tyler Neely <t@jujit.su>"]
+license = "Apache-2.0"
+keywords = ["dns", "srv"]
+homepage = "https://github.com/spacejam/rust-srv"
+
+[dependencies]
+libc="0.1.8"
+rand="0.3"
